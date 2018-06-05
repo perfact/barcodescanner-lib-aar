@@ -204,6 +204,11 @@ public final class Intents {
      */
     public static final String ORIENTATION_LOCK = "ORIENTATION_LOCK";
 
+    /**
+     * Set to true to assume GS1 in Code128, mapping FNC_1 to \x1d to decode correctly.
+     */
+    public static final String ASSUME_GS1 = "ASSUME_GS1";
+
     private Scan() {
     }
   }
